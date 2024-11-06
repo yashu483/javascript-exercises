@@ -11,6 +11,7 @@ const removeFromArray = function (array, ...args) {
     // so we create a new array with every item, except those that should be removed
     if (!args.includes(item)) {
       newArray.push(item);
+      
     }
   });
   // and return that array
