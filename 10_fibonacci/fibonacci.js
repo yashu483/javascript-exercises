@@ -3,12 +3,10 @@ const fibonacci = function (position) {
 
     if (typeof position === "string") {
         +position;
-    } ;
-    if (position == 0) { return 0 } ;
-
-    if (position < 0) {
-        return "OOPS";
-    } ;
+    };
+    if (position == 0)  return 0  ;
+    if (position < 0) return "OOPS";
+     
     for (let i = 1; i < position; i++) {
         array.push((array[(array.length - 2)] + array[array.length - 1]));
 
